@@ -5,13 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/EasyPullToRefresh.svg?style=flat)](https://cocoapods.org/pods/EasyPullToRefresh)
 [![Platform](https://img.shields.io/cocoapods/p/EasyPullToRefresh.svg?style=flat)](https://cocoapods.org/pods/EasyPullToRefresh)
 
-Easily integrate pull to refresh without any hassle.Handle an empty tableview with a single line. No need to add anything to storyboard or xib or code.
+Easily integrate pull to refresh without any hassle. Handle empty tableview with a single line. No need to add anything to storyboard or xib or code.
 
-## Example
+## Example :books:
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Installation
+## Installation :hourglass_flowing_sand:
 
 EasyPullToRefresh is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -21,7 +21,7 @@ pod 'EasyPullToRefresh'
 ```
 ![alt text](https://github.com/harshalrj25/MasterAssetsRepo/blob/master/EasyPullToRefresh.gif "TableView")
 
-## Usage
+## Usage :bulb:
 
 After installation the pull to refresh will be available for every tableview inside your project.
 Use below call back to handle the refresh event.
@@ -36,6 +36,28 @@ Use below call back to handle reload event.
         self.tableView.customReload {
             // You can do your API call here
         }
+
+If you dont like the colors and theme, override all the controls according to your needs.
+You can override default colors and appearance for the UIRefreshControl, ReloadButton and DataEmptyLabel.
+Use Below variable names to access the controls
+          
+        // 1: Disable pull to refresh using the flag
+        self.tableView.showPullToRefresh = false
+        
+        // 2: Disable empty tableview message and reload button
+        self.tableView.showReloadOnEmpty = false
+        
+        // 3: Customize the UiRefreshControl
+        self.tableView.customRefreshControl.backgroundColor = UIColor.green
+        self.tableView.customRefreshControl.tintColor = UIColor.green
+        
+        // 4: Override custom message for empty tableview using below label
+        self.tableView.customEmptyMessageLabel.text = "YOUR CUSTOM TEXT FOR EMPTY LIST"
+        
+        // 5: Customize the Reload button for empty tableview
+        self.tableView.customReloadButton.backgroundColor = UIColor.green
+        self.tableView.customReloadButton.layer.borderColor = UIColor.red.cgColor
+
 
 ## Author :innocent:
 
