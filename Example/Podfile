@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyPullToRefresh_Example' do
+  pod 'EasyPullToRefresh', :path => '../'
+
+  target 'EasyPullToRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
