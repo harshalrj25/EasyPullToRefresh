@@ -1,0 +1,22 @@
+{
+  "name": "EasyPullToRefresh",
+  "version": "0.1.0",
+  "summary": "A short description of EasyPullToRefresh.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/harshalrj25/EasyPullToRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "harshalrj25": "harshalrj25@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/harshalrj25/EasyPullToRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasyPullToRefresh/Classes/**/*"
+}

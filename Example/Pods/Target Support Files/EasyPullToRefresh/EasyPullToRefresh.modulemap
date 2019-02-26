@@ -1,0 +1,6 @@
+framework module EasyPullToRefresh {
+  umbrella header "EasyPullToRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

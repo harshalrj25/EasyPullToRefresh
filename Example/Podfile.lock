@@ -1,0 +1,16 @@
+PODS:
+  - EasyPullToRefresh (0.1.0)
+
+DEPENDENCIES:
+  - EasyPullToRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  EasyPullToRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyPullToRefresh: d904955bd7c057879895d770114c9a2d12af8703
+
+PODFILE CHECKSUM: 7a96b02bd1f606fbdbce3764778ce9e6462a4234
+
+COCOAPODS: 1.5.3
