@@ -15,17 +15,36 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // This is the only methods you need to implement
+        // Use this handler for pull to refresh event
         self.tableView.customRefresh {
             // You can do your API call here
             print("Refreshing")
             self.toggle()
         }
+        
+        // Use this handler when tableview is empty and reload button is clicked
         self.tableView.customReload {
             // You can do your API call here
             print("Reloading")
             self.toggle()
         }
+        
+//        1: Disable pull to refresh using the flag
+//        self.tableView.showPullToRefresh = false
+//
+//        2: Disable empty tableview message and reload button
+//        self.tableView.showReloadOnEmpty = false
+//
+//        3: Customize the UiRefreshControl
+//        self.tableView.customRefreshControl.backgroundColor = UIColor.green
+//        self.tableView.customRefreshControl.tintColor = UIColor.green
+//
+//        4: Override custom message for empty tableview using below label
+//        self.tableView.customEmptyMessageLabel.text = "YOUR CUSTOM TEXT FOR EMPTY LIST"
+//
+//        5: Customize the Reload button for empty tableview
+//            self.tableView.customReloadButton.backgroundColor = UIColor.green
+//        self.tableView.customReloadButton.layer.borderColor = UIColor.red.cgColor
     }
     
     func toggle() {

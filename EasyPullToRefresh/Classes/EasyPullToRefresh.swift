@@ -47,7 +47,7 @@ extension UITableView {
             return control
         }()
     }
-    var customEmptyView:UIView {
+    public var customEmptyView:UIView {
         get {
             return Holder._customEmptyView
         }
@@ -55,7 +55,7 @@ extension UITableView {
             Holder._customEmptyView = newValue
         }
     }
-    var customEmptyMessageLabel:UILabel {
+    public var customEmptyMessageLabel:UILabel {
         get {
             return Holder._customEmptyMessageLabel
         }
@@ -63,7 +63,7 @@ extension UITableView {
             Holder._customEmptyMessageLabel = newValue
         }
     }
-    var customReloadButton:UIButton {
+    public var customReloadButton:UIButton {
         get {
             return Holder._customReloadButton
         }
@@ -71,7 +71,7 @@ extension UITableView {
             Holder._customReloadButton = newValue
         }
     }
-    var customRefreshControl:UIRefreshControl {
+    public var customRefreshControl:UIRefreshControl {
         get {
             return Holder._customRefreshControl
         }
@@ -79,7 +79,7 @@ extension UITableView {
             Holder._customRefreshControl = newValue
         }
     }
-    var showPullToRefresh:Bool {
+    public var showPullToRefresh:Bool {
         get {
             return Holder._showPullToRefresh
         }
@@ -87,7 +87,7 @@ extension UITableView {
             Holder._showPullToRefresh = newValue
         }
     }
-    var showReloadOnEmpty:Bool {
+    public var showReloadOnEmpty:Bool {
         get {
             return Holder._showReloadOnEmpty
         }
