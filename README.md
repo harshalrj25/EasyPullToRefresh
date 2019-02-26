@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/EasyPullToRefresh.svg?style=flat)](https://cocoapods.org/pods/EasyPullToRefresh)
 [![Platform](https://img.shields.io/cocoapods/p/EasyPullToRefresh.svg?style=flat)](https://cocoapods.org/pods/EasyPullToRefresh)
 
+Easily integrate pull to refresh without any hassle.Handle an empty tableview with a single line. No need to add anything to storyboard or xib or code.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
