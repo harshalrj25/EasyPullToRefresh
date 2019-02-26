@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CEA6FB01A0C69BA928F312A1B8F72F1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F8441CA2795AE6CBFC08AD053F9377 /* ReplaceMe.swift */; };
-		11E82E69FBBB7323859A49F2559692F8 /* EasyPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 296991735EE5D405DCDEEDB519CBF9A7 /* EasyPullToRefresh-dummy.m */; };
 		2509E85A2C06539BFEA6989FF8542DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		380B740BB65CC7479ACE973B4160C89F /* Pods-EasyPullToRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249069A105994B4AA03A19DC00AE517 /* Pods-EasyPullToRefresh_Example-dummy.m */; };
+		4B3260C933DF890C3726939ED1F8738F /* EasyPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99531199741627EC5DF5C6A393BED8E1 /* EasyPullToRefresh.swift */; };
 		4D4A8ACFE1234B7C73CFC498281B9E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5A3D7C5133AE5E07BD22303E19434EBF /* Pods-EasyPullToRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE557B8B84977998DC5948E17EAA0FC /* Pods-EasyPullToRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E562694D0FD60FBD3B67534BD0E37AC /* Pods-EasyPullToRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C8A2F9763E53A68D5AF9EFC92FAA47 /* Pods-EasyPullToRefresh_Tests-dummy.m */; };
+		911C4074A4A61B5138249C86B735FF4D /* EasyPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F923FDBECA39C9BCD84E8520A61AAB /* EasyPullToRefresh-dummy.m */; };
 		A0C2CBF3A0E7D9305230C05E6A56A917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A2E207890E3D87CBA604E4901358F186 /* Pods-EasyPullToRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC002B9EBE9933EA0E3C861F1E704A82 /* Pods-EasyPullToRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC8623239883BB22B3C24D56EDE33202 /* EasyPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F509E6EA6342412BF414993BC983CB81 /* EasyPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8623239883BB22B3C24D56EDE33202 /* EasyPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D49A033DD16D9C508059D343AA6B4F24 /* EasyPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +38,15 @@
 
 /* Begin PBXFileReference section */
 		008521B2C2BE93D3003D4D1ED1DF25F9 /* Pods-EasyPullToRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyPullToRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		23EB417812BBB82F22480658F7B9C372 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2413E7593BF9B372D2B05A1D1DD3209B /* Pods-EasyPullToRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyPullToRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
-		25F8441CA2795AE6CBFC08AD053F9377 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EasyPullToRefresh/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		26F92C46F0368A5F8DE387BA9D91B91B /* Pods-EasyPullToRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyPullToRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		296991735EE5D405DCDEEDB519CBF9A7 /* EasyPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		2C805F8D2E83909549358A69702BEF6C /* Pods-EasyPullToRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyPullToRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33CB19C37CC6E39CDFF517B3CAAB6946 /* EasyPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		37CD0D488DF0E5142C10B9069E57724A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3BDF359781A20ACF0AB4D4156C1F4F15 /* Pods-EasyPullToRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyPullToRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E137560FE533C8E2B3060132A5819B3 /* EasyPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
 		3FD8D39B65A5ACA84374830EBD2755EA /* Pods_EasyPullToRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EasyPullToRefresh_Tests.framework; path = "Pods-EasyPullToRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A9BC9756DE1FD90F2CC1DF2505E0E38 /* Pods-EasyPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5E47573306CF342B7732677A60704847 /* EasyPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
-		5F3037B486184FDD7D0475621125CBE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		641F7910D1D84300493125E9DABA5CF9 /* Pods-EasyPullToRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyPullToRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7249069A105994B4AA03A19DC00AE517 /* Pods-EasyPullToRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyPullToRefresh_Example-dummy.m"; sourceTree = "<group>"; };
 		7583C5F520694202A30982DC48074A3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,20 +54,24 @@
 		7823568F979B753D40F36E74CF4EACB0 /* Pods-EasyPullToRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyPullToRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		82A68F6EFB712A8790C41EE5CA368775 /* EasyPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyPullToRefresh.framework; path = EasyPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884D5E6B7B75EB3D0A483D28F6189C10 /* Pods-EasyPullToRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyPullToRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		8CFE69A0F353D3E08CAD019E48DF641B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F38B3B8D6F0F9CDEA56F490243EB32 /* EasyPullToRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EasyPullToRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99531199741627EC5DF5C6A393BED8E1 /* EasyPullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyPullToRefresh.swift; path = EasyPullToRefresh/Classes/EasyPullToRefresh.swift; sourceTree = "<group>"; };
 		9CE557B8B84977998DC5948E17EAA0FC /* Pods-EasyPullToRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyPullToRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A72347DFD071686091C5BF58B19485EF /* EasyPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPullToRefresh.xcconfig; sourceTree = "<group>"; };
 		A78836953FF64F62A13B54C45FE8ED2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A810880F8398AC62CBBEF5D780FCDE25 /* EasyPullToRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EasyPullToRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC002B9EBE9933EA0E3C861F1E704A82 /* Pods-EasyPullToRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyPullToRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
 		B9C8A2F9763E53A68D5AF9EFC92FAA47 /* Pods-EasyPullToRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyPullToRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC9EDCBCC54D1DCE80F43B4D35E4BAEF /* EasyPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyPullToRefresh.modulemap; sourceTree = "<group>"; };
 		C0A1CAA283CEA004D1196066183F4D48 /* Pods-EasyPullToRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyPullToRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C58C5F6BCBB3DC303E0EF014F8648127 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F923FDBECA39C9BCD84E8520A61AAB /* EasyPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		CA15A6F1509A9FF61810D5A7483890C4 /* Pods-EasyPullToRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyPullToRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D43835D25B4237A15CA7C8B38762AB04 /* Pods-EasyPullToRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyPullToRefresh_Example-resources.sh"; sourceTree = "<group>"; };
+		D49A033DD16D9C508059D343AA6B4F24 /* EasyPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		DAA0021A2CBE525C55AB7CC0E7F548C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E47388D2D734D5C029137F02F5AA2FC7 /* EasyPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyPullToRefresh.modulemap; sourceTree = "<group>"; };
 		EE87A098049651E96515C9D2298B22F0 /* Pods-EasyPullToRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyPullToRefresh_Example.modulemap"; sourceTree = "<group>"; };
 		F05A31E2F16BE8CEBEC6E066A3874A23 /* Pods-EasyPullToRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyPullToRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F509E6EA6342412BF414993BC983CB81 /* EasyPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		17A6C34977BDDA2F8EEF44772C47B8E7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E7C9A7F1A85E547EE69C3B3441C610C /* EasyPullToRefresh */,
+				9BD2619EE35AB3449E675990352E003C /* EasyPullToRefresh */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -118,17 +118,6 @@
 				3FD8D39B65A5ACA84374830EBD2755EA /* Pods_EasyPullToRefresh_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3E7C9A7F1A85E547EE69C3B3441C610C /* EasyPullToRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				25F8441CA2795AE6CBFC08AD053F9377 /* ReplaceMe.swift */,
-				B8A08F84B7E4D49B9F110A612BDDE55A /* Pod */,
-				D9C449325CA6718EAE79C0B737B9A2FD /* Support Files */,
-			);
-			name = EasyPullToRefresh;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -168,6 +157,31 @@
 			);
 			sourceTree = "<group>";
 		};
+		9333848EBB5BDF024F1FF25DCD384F8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E47388D2D734D5C029137F02F5AA2FC7 /* EasyPullToRefresh.modulemap */,
+				A72347DFD071686091C5BF58B19485EF /* EasyPullToRefresh.xcconfig */,
+				C8F923FDBECA39C9BCD84E8520A61AAB /* EasyPullToRefresh-dummy.m */,
+				3E137560FE533C8E2B3060132A5819B3 /* EasyPullToRefresh-prefix.pch */,
+				D49A033DD16D9C508059D343AA6B4F24 /* EasyPullToRefresh-umbrella.h */,
+				8CFE69A0F353D3E08CAD019E48DF641B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyPullToRefresh";
+			sourceTree = "<group>";
+		};
+		9BD2619EE35AB3449E675990352E003C /* EasyPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				99531199741627EC5DF5C6A393BED8E1 /* EasyPullToRefresh.swift */,
+				EF7150F20C7506178D80CA165EEB046E /* Pod */,
+				9333848EBB5BDF024F1FF25DCD384F8C /* Support Files */,
+			);
+			name = EasyPullToRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		A6F1B38309977E5530ADE2D8ED368FE6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,16 +209,6 @@
 			path = "Target Support Files/Pods-EasyPullToRefresh_Example";
 			sourceTree = "<group>";
 		};
-		B8A08F84B7E4D49B9F110A612BDDE55A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A810880F8398AC62CBBEF5D780FCDE25 /* EasyPullToRefresh.podspec */,
-				5F3037B486184FDD7D0475621125CBE7 /* LICENSE */,
-				23EB417812BBB82F22480658F7B9C372 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,18 +217,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9C449325CA6718EAE79C0B737B9A2FD /* Support Files */ = {
+		EF7150F20C7506178D80CA165EEB046E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BC9EDCBCC54D1DCE80F43B4D35E4BAEF /* EasyPullToRefresh.modulemap */,
-				33CB19C37CC6E39CDFF517B3CAAB6946 /* EasyPullToRefresh.xcconfig */,
-				296991735EE5D405DCDEEDB519CBF9A7 /* EasyPullToRefresh-dummy.m */,
-				5E47573306CF342B7732677A60704847 /* EasyPullToRefresh-prefix.pch */,
-				F509E6EA6342412BF414993BC983CB81 /* EasyPullToRefresh-umbrella.h */,
-				C58C5F6BCBB3DC303E0EF014F8648127 /* Info.plist */,
+				97F38B3B8D6F0F9CDEA56F490243EB32 /* EasyPullToRefresh.podspec */,
+				DAA0021A2CBE525C55AB7CC0E7F548C9 /* LICENSE */,
+				37CD0D488DF0E5142C10B9069E57724A /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EasyPullToRefresh";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 240FD52C205036B0B26C0C0F5503A437 /* Build configuration list for PBXNativeTarget "EasyPullToRefresh" */;
 			buildPhases = (
-				76A286000E44AF8CA3AE15E6422CA0FF /* Sources */,
+				86C97AFC15096B4DC43CFC849685CC54 /* Sources */,
 				25FF01EC2D70EC1ECE41EE9D986B5403 /* Frameworks */,
 				1202FA0B0864005C310AE16EE1698818 /* Headers */,
 			);
@@ -347,12 +347,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76A286000E44AF8CA3AE15E6422CA0FF /* Sources */ = {
+		86C97AFC15096B4DC43CFC849685CC54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E82E69FBBB7323859A49F2559692F8 /* EasyPullToRefresh-dummy.m in Sources */,
-				0CEA6FB01A0C69BA928F312A1B8F72F1 /* ReplaceMe.swift in Sources */,
+				911C4074A4A61B5138249C86B735FF4D /* EasyPullToRefresh-dummy.m in Sources */,
+				4B3260C933DF890C3726939ED1F8738F /* EasyPullToRefresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +382,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5472C95724F24894925A696F53857367 /* Release */ = {
+		1CB5A10EFA5A7D7681E100A07BF97602 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33CB19C37CC6E39CDFF517B3CAAB6946 /* EasyPullToRefresh.xcconfig */;
+			baseConfigurationReference = A72347DFD071686091C5BF58B19485EF /* EasyPullToRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -406,14 +406,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		59227DAC98678F26C06506D74B3F4B8A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -443,6 +442,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D4839B305B6ACD247EB60DF253A54EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72347DFD071686091C5BF58B19485EF /* EasyPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyPullToRefresh/EasyPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyPullToRefresh/EasyPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = EasyPullToRefresh;
+				PRODUCT_NAME = EasyPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -544,38 +576,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		95EB993DE26BCE0B8505EA6E0D99A29C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33CB19C37CC6E39CDFF517B3CAAB6946 /* EasyPullToRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EasyPullToRefresh/EasyPullToRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyPullToRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyPullToRefresh/EasyPullToRefresh.modulemap";
-				PRODUCT_MODULE_NAME = EasyPullToRefresh;
-				PRODUCT_NAME = EasyPullToRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -711,8 +711,8 @@
 		240FD52C205036B0B26C0C0F5503A437 /* Build configuration list for PBXNativeTarget "EasyPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95EB993DE26BCE0B8505EA6E0D99A29C /* Debug */,
-				5472C95724F24894925A696F53857367 /* Release */,
+				1CB5A10EFA5A7D7681E100A07BF97602 /* Debug */,
+				6D4839B305B6ACD247EB60DF253A54EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
