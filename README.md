@@ -23,6 +23,11 @@ pod 'EasyPullToRefresh'
 
 ## Usage :bulb:
 
+Import the pod inside your viewcontroller class.
+```
+import EasyPullToRefresh
+```
+
 After installation the pull to refresh will be available for every tableview inside your project.
 Use below call back to handle the refresh event.
 
